@@ -1,0 +1,59 @@
+<!--Created by rongzhx on 2017/5/15 0015.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            display: flex;
+            display: -webkit-flex;
+            text-align: center;
+            flex-direction:column;
+        }
+        .header, .footer{
+            height:50px;
+            /*line-height:50px;*/
+            background-color:chocolate;
+            color:white;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            display: flex;
+            display: -webkit-flex;
+            height:300px;
+        }
+        .left, .right{
+            flex:1;
+            /*line-height:300px;*/
+            background-color: cadetblue;
+            color:white;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .middle{
+            flex:8;
+            display: flex;
+            display: -webkit-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="content">
+            <div class="left">left</div>
+            <div class="middle">middle</div>
+            <div class="right">right</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

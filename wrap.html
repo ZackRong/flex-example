@@ -1,0 +1,38 @@
+<!--Created by rongzhx on 2017/5/15 0015.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            display: flex;
+            display: -webkit-flex;
+            justify-content:space-between;
+            padding:5px;
+            border:solid 1px gray;
+            width:200px;
+            flex-wrap:wrap;
+            flex-direction:row;
+        }
+        .item{
+            flex:0 0 25%;
+            display: inline-block;
+            /*width:20px;*/
+            height:40px;
+            background-color: #e0d623;
+            box-sizing:border-box;
+            border:solid 1px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+        <span class="item"></span>
+    </div>
+</body>
+</html>
